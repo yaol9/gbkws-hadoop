@@ -1,0 +1,5 @@
+local: hadoop jar /home/yao/test/icde12/dist/lib/MyProject-20120715.jar  org.apache.hadoop.examples.HadoopJoin input output
+
+school server: hadoop --config /etc/hadoop jar MyProject-20120718.jar test.icde12.HadoopJoin input output
+
+
